@@ -3,7 +3,7 @@
 I was given 2 Python files to start: TreasureMaze.py and GameExperience.py.
 **TreasureMaze.py** defines the maze environment as a matrix, handles movement, reward signals, and game state (win/loss)
 **GameExperience.py** implements the replay buffer, which stores past episodes and samples random mini-batches for training.
-The Jupyter Notebook **(“TreasureHuntGame.ipynb”)** also contained the maze definition, helper functions **(“show,” “play_game,” “completion_check”)**, the neural network architecture *8(“build_model”)**, and a custom **“train_step”** function using TensorFlow's GradientTape.
+The Jupyter Notebook **(“TreasureHuntGame.ipynb”)** also contained the maze definition, helper functions **(“show,” “play_game,” “completion_check”)**, the neural network architecture **(“build_model”)**, and a custom **“train_step”** function using TensorFlow's GradientTape.
 ## What code did I create?
 I finished the two main parts that were left uncompleted on purpose:
 **“play_game()”**: executes one game episode with the trained model in exploitation only mode, always choosing the highest valued valid action to step through the maze.
